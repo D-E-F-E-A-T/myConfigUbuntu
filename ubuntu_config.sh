@@ -24,7 +24,7 @@ banner
 Myverify(){
 
 usuario=`id -u`
-if [ "$usuario" == "3318325" ]
+if [ "$usuario" == "0" ]
 then
     echo
     echo -e  "\n\e[1;32m[::] initializing [::] \e[0m"
